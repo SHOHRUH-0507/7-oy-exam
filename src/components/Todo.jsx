@@ -12,7 +12,7 @@ function Todo() {
         setTodos(JSON.parse(savedTodos));
       }
     }        catch (error) {
-        console.error("error localStorage:", error);
+        // console.error("error localStorage:", error);
     }
   }, []);
 
@@ -22,7 +22,7 @@ function Todo() {
     } catch (error) {
 
 
-      console.error("error localStorage:", error);
+    //   console.error("error localStorage:", error);
     }
   }, [todos]);
 
